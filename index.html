@@ -38,10 +38,11 @@
                 <li><a href="#activity-2">2</a></li>
                 <li><a href="#activity-3">3</a></li>
                 <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
             </ul>
 
             <div class="sidebar-info">
-                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>💡 Esta misión se centra en la aplicación creativa de nuevos sensores y el diseño de proyectos libres.</p>
                 <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
             </div>
         </aside>
@@ -70,20 +71,22 @@
                                 <td>
                                     <strong>Objetivos:</strong>
                                     <ul>
-                                        <li>Que los estudiantes integren y lean datos de nuevos sensores analógicos (Luz y Ruido).</li>
-                                        <li>Que diseñen e implementen un proyecto libre que utilice estos datos para tomar decisiones locales.</li>
-                                        <li>Que practiquen la calibración de umbrales y la depuración de sistemas de control basados en sensores.</li>
+                                        <li>Que los estudiantes integren y lean datos de nuevos sensores (Luz y Ruido).</li>
+                                        <li>Que comprendan las aplicaciones industriales y sociales de estos sensores.</li>
+                                        <li>Que diseñen e implementen un sistema de proyecto libre que utilice estos datos para tomar decisiones, utilizando Vibe Coding.</li>
                                     </ul>
                                     <strong>Secuencia de Clase:</strong>
                                     <ul>
-                                        <li><strong class="tactic-highlight">⚡A.I. GYM:</strong> Exploración de las capacidades y aplicaciones de los nuevos sensores.</li>
-                                        <li><strong class="tactic-highlight">⚡BRAIN SPARK (DISEÑO LIBRE):</strong> Ideación, Vibe Coding, implementación y calibración de un sistema único.</li>
-                                        <li><strong class="tactic-highlight">⚡GNIUS STORM:</strong> Showcase de proyectos y reflexión sobre los desafíos de la calibración y el diseño de sistemas.</li>
+                                        <li><strong class="tactic-highlight">⚡A.I. GYM:</strong> Análisis profundo y contextualización de la misión con Xolo.</li>
+                                        <li><strong class="tactic-highlight">⚡VIBE CODING:</strong> Diseño de la intención y generación de código por IA.</li>
+                                        <li><strong class="tactic-highlight">⚡ANÁLISIS DE CÓDIGO:</strong> Lectura y comprensión guiada del código generado ("Taming the Genie").</li>
+                                        <li><strong class="tactic-highlight">⚡IMPLEMENTACIÓN Y DEBUGGING:</strong> Pruebas de hardware/software y depuración colaborativa con Xolo.</li>
+                                        <li><strong class="tactic-highlight">⚡GNIUS STORM:</strong> Showcase de proyectos, síntesis de "insights" y reflexión iterativa.</li>
                                     </ul>
                                     <strong>Entregable Clave:</strong>
                                     <ul>
-                                        <li>Un proyecto funcional y único diseñado por la pareja de estudiantes, que utiliza el sensor de luz o ruido para controlar una salida de manera lógica.</li>
-                                        <li>Código que demuestra la calibración de un umbral basado en mediciones empíricas (`print()`).</li>
+                                        <li>Un script funcional y original en MicroPython, diseñado por los estudiantes, que lee datos de un sensor de luz o ruido y ejecuta una acción basada en un umbral calibrado.</li>
+                                        <li>Comprensión demostrada del concepto de calibración de sensores analógicos y de la resolución de problemas de control como la oscilación.</li>
                                     </ul>
                                 </td>
                                 <td>
@@ -93,19 +96,20 @@
                                         <li>Conexión a internet estable.</li>
                                         <li>Acceso a MakeCode (<a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>) en modo Python.</li>
                                         <li>Chat "Agente Gnius" (Xolo) operativo.</li>
-                                        <li>Presentación de diapositivas (Diapositivas 1-7).</li>
-                                        <li>Por equipo de 2: 1 Micro:bit v2 con placa IOTbit, 1 sensor de Luz (LDR), 1 sensor de Ruido (micrófono), y cables de conexión.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-10).</li>
+                                        <li>1 Micro:bit v2 con placa IOTbit y cable USB por equipo de 2.</li>
+                                        <li>1 Sensor de Luz y/o 1 Sensor de Ruido por equipo.</li>
                                     </ul>
                                     <strong>Preparación Previa para ESTA Sesión:</strong>
                                     <ol>
                                         <li><strong>Verificación del Entorno Digital y Físico (Interna):</strong>
                                             <ul>
-                                                <li>Asegurar que los sensores de luz y ruido están disponibles y son funcionales.</li>
-                                                <li>Verificar la funcionalidad del chat de Xolo y tener cargada la presentación.</li>
+                                                <li>Asegurar que los sensores de luz y ruido estén funcionales y que se conozca el pin analógico al que se conectan en la IOTbit.</li>
+                                                <li>Verificar la conexión a internet y el acceso a MakeCode.</li>
                                             </ul>
                                         </li>
-                                        <li><strong>Familiarización Conceptual y Técnica:</strong> Repasar la lectura de pines analógicos (`read_analog()`) y los conceptos de calibración e histéresis. Estar preparado para guiar a los estudiantes en un proceso de diseño más abierto.</li>
-                                        <li><strong>Preparación de la Demostración Práctica:</strong> Tener una versión funcional del "guardián de silencio" o una "luz automática" para demostrar el principio de calibración. Tener una linterna o poder cubrir el sensor de luz fácilmente para mostrar cambios en las lecturas.</li>
+                                        <li><strong>Familiarización Conceptual y Técnica:</strong> Repasar la lectura de pines analógicos (`read_analog()`). Estar preparado para guiar la discusión sobre calibración y el concepto de histéresis como solución a la oscilación.</li>
+                                        <li><strong>Preparación de la Demostración Práctica:</strong> Tener un proyecto funcional, como el "guardián de silencio", para demostrar el concepto y el proceso de calibración usando la consola y `print()`.</li>
                                     </ol>
                                 </td>
                             </tr>
@@ -117,29 +121,29 @@
 
             <div class="activity-card" id="activity-1">
                 <h2>⚡ Actividad 1: Saludo de IA y Contexto ⏰ 3 minutos</h2>
-                <p>Establecer el tono de la sesión, activar la IA y presentar la expansión de los "sentidos" del sistema.</p>
+                <p>Establecer el tono de la sesión, activar la IA y presentar los nuevos sensores.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
-                            <h3>Paso 1: Bienvenida y Contexto de la Misión</h3>
-                            <p>(Proyectar Diapositiva 2) El facilitador da la bienvenida y presenta la integración de nuevos tipos de sensores.</p>
+                            <h3>Paso 1: Bienvenida y Contexto Estratégico</h3>
+                            <p>(Proyectar Diapositiva 2) El facilitador da la bienvenida y presenta el enfoque de la misión.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Buenos días, desarrolladores. Nuestros sistemas ya pueden 'sentir' el clima. Hoy expandiremos sus sentidos. Les daremos 'oídos' para el ruido y 'ojos' para la luz ambiental. Esto abre un nuevo abanico de posibilidades para la automatización y el monitoreo inteligente.</p>
+                                <p class="dialogue assistant">Buenos días, ingenieros. Nuestros sistemas ya pueden 'sentir' el clima. Hoy expandiremos sus sentidos. Les daremos 'oídos' para el ruido y 'ojos' para la luz ambiental. Esto abre un nuevo abanico de posibilidades para la automatización y el monitoreo inteligente.</p>
                             </div>
                         </div>
                     </div>
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 2: Activación y Personalización de Xolo</h3>
-                            <p>El facilitador guía a los alumnos para que inicien su sesión de trabajo individual con Xolo.</p>
+                            <p>El facilitador guía a los alumnos para que inicien su sesión de trabajo individual.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Inicien su sesión con Xolo como siempre, compartiendo su perfil de aprendizaje e interés para contextualizar la misión. Por ejemplo: <strong>'Hola Xolo, soy Ana, perfil Navigator, y me interesa la planificación de ciudades inteligentes. Lista para la Misión 7.'</strong></p>
+                                <p class="dialogue assistant">Por favor, inicien su sesión con Xolo, compartiendo su perfil de aprendizaje e interés. Por ejemplo: <strong>'Hola Xolo. Soy Julia, perfil Navigator, y me interesa la planificación de ciudades inteligentes (Smart Cities).'</strong> Esto ayudará a Xolo a darles ejemplos relevantes. Procedan.</p>
                             </div>
                         </div>
                     </div>
@@ -147,30 +151,18 @@
             </div>
 
             <div class="activity-card" id="activity-2">
-                <h2>⚡ Actividad 2: A.I. GYM (Exploración de Sensores) ⏰ 10 minutos</h2>
-                <p>Construir el andamiaje conceptual sobre las capacidades y aplicaciones de los sensores de luz y ruido.</p>
+                <h2>⚡ Actividad 2: "I Can Statement" y Presentación del Desafío ⏰ 2 minutos</h2>
+                <p>Clarificar la meta de aprendizaje enfocada en la aplicación creativa y el diseño de sistemas.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
-                            <h3>Paso 1: Instrucción para la Investigación de Sensores</h3>
-                            <p>(Proyectar Diapositiva 3) El facilitador dirige a los alumnos para que investiguen los nuevos sensores.</p>
+                            <h3>Paso 1: "I Can Statement" de Diseño</h3>
+                            <p>(Proyectar Diapositiva 3) El facilitador presenta el objetivo de aprendizaje de la sesión.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">De forma individual, su primera tarea de investigación. Pregúntenle a Xolo sobre las capacidades de los sensores de luz y ruido. Usen este prompt: <strong>'Xolo, describe el funcionamiento de un sensor de ruido y uno de luz. ¿Para qué se usan en el mundo profesional?'</strong> Esto les dará inspiración para sus propios proyectos.</p>
-                            </div>
-                        </div>
-                    </div>
-                     <div class="step-card">
-                        <div class="step-content">
-                            <h3>Paso 2: Supervisión y Guía del Facilitador</h3>
-                            <p>El facilitador circula para asegurar la comprensión y fomentar preguntas de profundización.</p>
-                        </div>
-                        <div class="collapsible">
-                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-                            <div class="collapsible-content">
-                                <p class="dialogue assistant">(Mientras circula) "Ahora que conocen las aplicaciones, profundicen en la técnica. Pregunten a Xolo: <strong>'¿Qué significa que un sensor sea 'analógico' en lugar de 'digital' y cómo afecta eso al código?'</strong> o <strong>'¿Qué limitaciones tiene un sensor de ruido simple? ¿Qué información no puede darme?'</strong> Entender las limitaciones es tan importante como conocer las capacidades."</p>
+                                <p class="dialogue assistant">La meta de hoy es de diseño y creación. Al finalizar, podrán afirmar: <strong>'Yo puedo integrar un nuevo sensor analógico en un sistema, calibrarlo, y diseñar un proyecto original que resuelva un problema utilizando sus datos.'</strong></p>
                             </div>
                         </div>
                     </div>
@@ -178,42 +170,30 @@
             </div>
 
             <div class="activity-card" id="activity-3">
-                 <h2>⚡ Actividad 3: Brain Spark (Diseño Libre y Calibración) ⏰ 22 minutos</h2>
-                <p>Los estudiantes diseñan, implementan y depuran un proyecto creativo propio en parejas.</p>
+                <h2>⚡ Actividad 3: A.I. GYM (Exploración de Sensores) ⏰ 10 minutos</h2>
+                <p>Facilitar una sesión de aprendizaje sobre las capacidades y aplicaciones de los nuevos sensores.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
-                            <h3>Paso 1: Presentación del Desafío y Formación de Parejas</h3>
-                             <p>(Proyectar Diapositiva 4) El facilitador presenta el desafío de diseño libre.</p>
+                            <h3>Paso 1: Instrucción para el Aprendizaje Conceptual</h3>
+                            <p>(Proyectar Diapositiva 4) El facilitador dirige a los alumnos para que aprendan sobre los sensores de luz y ruido con Xolo.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Ahora viene la parte creativa. Formen sus equipos de dos. Su misión es diseñar un proyecto **libre** que utilice el sensor de luz o el de ruido (o ambos) para resolver un problema o crear un sistema interesante. ¿Qué podrían automatizar? ¿Qué podrían monitorear? ¿Qué alerta podrían crear? El diseño es suyo.</p>
+                                <p class="dialogue assistant">Iniciamos el A.I. GYM. De forma individual, su tarea es aprender sobre las capacidades de los sensores de hoy. Usen este prompt con Xolo: <strong>'Xolo, describe el funcionamiento de un sensor de ruido y uno de luz. ¿Para qué se usan en el mundo profesional?'</strong> Esto les dará inspiración para sus proyectos.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="step-card">
+                     <div class="step-card">
                         <div class="step-content">
-                            <h3>Paso 2: Ideación, Vibe Coding y Generación</h3>
-                            <p>(Proyectar Diapositiva 5) Las parejas definen su 'vibe' única y colaboran con Xolo.</p>
+                            <h3>Paso 2: Supervisión y Guía del Facilitador</h3>
+                            <p>(Proyectar Diapositiva 5) El facilitador circula, refuerza conceptos y sugiere preguntas de profundización.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                 <p class="dialogue assistant">Discutan sus ideas hasta que tengan una 'vibe' clara y una lógica definida. Luego, describan ese concepto a Xolo para que actúe como su ingeniero de software y les genere el código base. Por ejemplo: <strong>'Xolo, vibe de guardián de biblioteca: si el ruido supera un umbral, enciende un LED rojo. Si está en silencio, un LED verde.'</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step-card">
-                        <div class="step-content">
-                            <h3>Paso 3: Implementación y Desafío de Calibración</h3>
-                             <p>(Proyectar Diapositiva 6) Las parejas implementan el código y enfrentan el desafío de la calibración.</p>
-                        </div>
-                        <div class="collapsible">
-                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-                            <div class="collapsible-content">
-                                 <p class="dialogue assistant">Implementen el código para su proyecto. Un desafío clave será la **calibración**. El valor que devuelve un sensor analógico depende del ambiente. No hay un 'número mágico' que funcione siempre. Deben usar `print()` para ver los valores que su sensor está leyendo en su entorno específico y así poder ajustar sus umbrales. Si su sistema se comporta de forma errática, pregunten a Xolo sobre el concepto de **'histéresis'** para crear una solución más robusta."</p>
+                                <p class="dialogue assistant">(Mientras circula) "Las aplicaciones que Xolo les describe son clave. Para profundizar, pregúntenle: <strong>'Xolo, si quisiera usar un sensor de ruido para detectar fallas en una máquina, ¿qué tipo de patrón de datos buscaría la IA?'</strong> O para el sensor de luz: <strong>'¿Cómo podría un sistema de agricultura inteligente usar los datos de luz para ahorrar energía?'</strong> Conecten el sensor con un problema real."</p>
                             </div>
                         </div>
                     </div>
@@ -221,42 +201,85 @@
             </div>
 
             <div class="activity-card" id="activity-4">
-                <h2>⚡ Actividad 4: Gnius STORM (Reflexión sobre Diseño) ⏰ 5 minutos</h2>
-                <p>El facilitador modera una reflexión final enfocada en el proceso de diseño, calibración y las limitaciones de los sensores.</p>
+                 <h2>⚡ Actividad 4: Brain Spark (Ideación Libre) ⏰ 22 minutos</h2>
+                <p>Los estudiantes diseñan, implementan y depuran un proyecto original utilizando los nuevos sensores.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
-                            <h3>Paso 1: Gnius STORM (Think - Individual)</h3>
-                            <p>(Proyectar Diapositiva 7) Los alumnos reflexionan individualmente sobre las limitaciones de su sistema.</p>
+                            <h3>Paso 1: Presentación del Desafío y Formación de Parejas</h3>
+                             <p>(Proyectar Diapositiva 6) El facilitador presenta el desafío de diseño libre y da la instrucción de formar parejas.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Vamos a nuestro cierre. Primero, un minuto de reflexión individual. Piensen en una limitación del sensor que usaron hoy. ¿Qué información importante no les puede dar? Por ejemplo, ¿el sensor de ruido puede saber si el sonido es una voz o una alarma?</p>
+                                <p class="dialogue assistant">Ahora, la parte creativa. Formen sus parejas. Su misión es diseñar un proyecto **libre** que utilice el sensor de luz o el de ruido para resolver un problema o crear un sistema interesante. ¿Qué podrían automatizar? ¿Qué podrían monitorear? ¿Qué alerta podrían crear? El lienzo está en blanco.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Diseño de la "Vibe" y Generación de Código</h3>
+                            <p>(Proyectar Diapositiva 7) Las parejas diseñan su concepto, lo comunican a Xolo y reciben el código base.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">Discutan sus ideas, definan una 'vibe' clara y luego descríbansela a Xolo para que actúe como su ingeniero de software y les genere el código base. Por ejemplo: <strong>'Xolo, queremos un guardián de silencio. Si el ruido supera un umbral, enciende un LED rojo. Si está en silencio, un LED verde.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Implementación y Depuración de Calibración</h3>
+                             <p>(Proyectar Diapositiva 8 y 9) Las parejas implementan el código y enfrentan el desafío de la calibración y la oscilación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">Implementen el código para su proyecto. Su principal desafío será la **calibración**. El valor que devuelve un sensor analógico depende del ambiente. Usen `print()` y la consola para ver los valores reales y ajustar su umbral. Si su sistema se prende y apaga muy rápido, están experimentando 'oscilación'. Describan este problema a Xolo y él les explicará el concepto de **histéresis** como una solución profesional.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM (Reflexión) ⏰ 5 minutos</h2>
+                <p>El facilitador modera una reflexión final enfocada en el proceso de diseño y las limitaciones de los sensores.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gnius STORM (Think - Individual)</h3>
+                            <p>(Proyectar Diapositiva 10) Instrucción para la reflexión individual.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Bien, para cerrar, nuestro Think-Pair-Share. Individualmente, un minuto para pensar: ¿Cuál es una limitación del sensor que usaron hoy? ¿Qué información importante no les puede dar?</p>
                             </div>
                         </div>
                     </div>
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 2: Gnius STORM (Pair - Parejas)</h3>
-                            <p>Los alumnos discuten en parejas cómo mejorar su proyecto.</p>
+                            <p>Los alumnos discuten mejoras para sus proyectos.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Ahora, en parejas, discutan cómo podrían mejorar su proyecto si pudieran combinarlo con otro de los sensores que ya conocen, como el de temperatura. ¿Qué sistema más inteligente podrían crear? Tienen dos minutos.</p>
+                                <p class="dialogue assistant">Ahora, en parejas, discutan durante dos minutos cómo podrían mejorar su proyecto si pudieran combinarlo con otro de los sensores que ya conocen, como el de temperatura.</p>
                             </div>
                         </div>
                     </div>
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 3: Gnius STORM (Share & Synthesis)</h3>
-                            <p>Algunas parejas comparten su proyecto y sus aprendizajes.</p>
+                            <p>Algunas parejas comparten sus proyectos y el facilitador cierra la sesión.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Escuchemos de algunas parejas. Compartan brevemente el proyecto que diseñaron y un 'insight' clave que obtuvieron durante el proceso de diseño o calibración. (Escuchar 2-3 respuestas). Excelente. Hoy han ampliado radicalmente la conciencia sensorial de sus sistemas y han actuado como verdaderos ingenieros de producto, identificando un problema y creando una solución a medida. La habilidad de integrar y calibrar diferentes tipos de sensores es clave para crear sistemas inteligentes y autónomos.</p>
+                                <p class="dialogue assistant">Escuchemos a algunas parejas. Compartan brevemente el proyecto que diseñaron y un 'insight' clave que obtuvieron durante el proceso de diseño o calibración. (Escuchar respuestas). Fantástico. Hoy han ampliado la conciencia sensorial de sus sistemas y han actuado como ingenieros de producto, creando una solución a medida. La habilidad de integrar diferentes tipos de sensores es clave para sistemas inteligentes.</p>
                             </div>
                         </div>
                     </div>
